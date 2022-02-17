@@ -58,7 +58,7 @@ font-size: 16px;
             background-color: yellow;
             color: black;
             font-size: 12px;
-            padding: 8px;
+            padding: 10px;
             border-radius: 5px;
             margin-right: 20px;
             font-weight: 600;
@@ -166,5 +166,202 @@ font-size: 16px;
     
 }
 .join-doooster h2{
-    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 8px;
+}
+.join-doooster h3{
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.club{
+    margin: 60px;
+    /* display: flex; */
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: white;
+    /* background-color: red; */
+
+}
+.card{
+
+    display: flex;
+    width: 100%;
+  
+    /* background-color: blue; */
+   justify-content: space-between;
+
+}
+.club-card{
+    display: flex;
+    background-color: #FAF9F9;
+    border-radius: 10px;
+    width: 42%;
+    padding: 50px;
+   
+}
+.club-card-icon{
+    color: #01C0FF;
+    margin: 0;
+    
+    
+}
+.club-card-text{
+color: black;
+    
+}
+.club-card-text h2{
+    font-weight: 700;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.club-card-text p{
+font-weight: 500;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.find-club-button{
+    border: solid;
+    background-color: #FAF9F9;
+    border-color: #80E0FF;
+    border-width: 3px;
+    color: #80E0FF;
+    width: fit-content;
+    border-radius: 5px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding: 15px;
+
+}
+.add-club-button{
+    border: solid;
+    background-color:  #80E0FF;
+    border-color: #80E0FF;
+    border-width: 3px;
+    color: white;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.differcence{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    border: solid;
+    border-width: 3px;
+    border-color:  #FAF9F9;
+    /* border-color: red; */
+    border-radius: 10px;
+    align-items: center;
+}
+.differcence h1{
+    margin: 30px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%;
+}
+.differcence p{
+    margin: 30px;
+
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer{
+    background-color: #80E0FF;
+    justify-content: space-between;
+    
+}
+.footer-details{
+    display: flex;
+    background-color: #00C0FF;
+    padding-left:20% ;
+    padding-right: 20%;
+    justify-content: space-between;
+   
+}
+
+.breff {
+margin: 50px;
+width: 30%;
+}
+.breff a{
+    font-size:  40px;
+}
+.breff p{
+    font-size:  20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.links{
+    margin: 50px;
+}
+.links h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.links h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.contact{
+    margin: 50px;
+}
+.contact h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input-field{
+    display: flex;
+    color: white;
+    background-color: #1FC8FF;
+    /* background-color: white; */
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.transparenticon{
+   color: white;
+    background-color: #1FC8FF;
+    border: none;
+    margin: 10px;
+    font-size: 25px;
+}
+.transparenticon p{
+    font-size: 40px;
+}
+.join-newsletter{
+         
+    background-color: yellow;
+    color: black;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+ 
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-align: center;
+}
+
+.join-newsletter a{
+    color: black;
+    padding: 10px;
+}
+.copyright{
+  
+    padding-left:22% ;
+    padding-right: 22%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+    background-color: #80E0FF;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
